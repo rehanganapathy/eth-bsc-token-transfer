@@ -4,7 +4,7 @@ const BridgeBsc = require('./BridgeBsc.sol');
 
 const web3Eth = new Web3('your infura url');
 const web3Bsc = new Web3('https://data-seed-prebsc-1-s1.binance.org:8545');
-const adminPrivKey = '';
+const adminPrivKey = 'add your key from infura';
 const { address: admin } = web3Bsc.eth.accounts.wallet.add(adminPrivKey);
 
 const bridgeEth = new web3Eth.eth.Contract(
