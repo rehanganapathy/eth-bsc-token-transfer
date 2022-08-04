@@ -1,8 +1,8 @@
 const Web3 = require('web3');
-const BridgeEth = require('/Users/rehanganapathy/Desktop/cross-chain/smart_contracts/BridgeEth.sol');
-const BridgeBsc = require('/Users/rehanganapathy/Desktop/cross-chain/smart_contracts/BridgeBsc.sol');
+const BridgeEth = require('./BridgeEth.sol');
+const BridgeBsc = require('./BridgeBsc.sol');
 
-const web3Eth = new Web3('wss://rinkeby.infura.io/ws/v3/b17f680117f64bd79f549fded1907a1d');
+const web3Eth = new Web3('your infura url');
 const web3Bsc = new Web3('https://data-seed-prebsc-1-s1.binance.org:8545');
 const adminPrivKey = '';
 const { address: admin } = web3Bsc.eth.accounts.wallet.add(adminPrivKey);
