@@ -1,4 +1,4 @@
-const TokenBsc = artifacts.require('/Users/rehanganapathy/Desktop/cross-chain/smart_contracts/TokenBsc.sol');
+const TokenBsc = artifacts.require('TokenBsc.sol');
 
 module.exports = async done => {
   const [recipient, _] = await web3.eth.getAccounts();
