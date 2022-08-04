@@ -8,3 +8,4 @@ A basic mechanism of it works is shown below.
 
 keep ganache running for this to work, make sure the naming on your migrations folder is correct, they dont work if you name your folders anything else
 Use your own infura url(wsl link) and mnemonic in your truffle config file, your contract cannot deploy without these two.
+Also make sure your imports are right, i have removed mine here to replace it with an abstract
