@@ -1,4 +1,4 @@
-const BridgeEth = artifacts.require('/Users/rehanganapathy/Desktop/cross-chain/smart_contracts/BridgeEth.sol');
+const BridgeEth = artifacts.require('BridgeEth.sol');
 
 module.exports = async done => {
   const [recipient, _] = await web3.eth.getAccounts();
